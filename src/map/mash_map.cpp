@@ -35,6 +35,11 @@ int main(int argc, char** argv)
   //Parse command line arguements   
   skch::Parameters parameters;        //sketching and mapping parameters
 
+  // TESTING
+  string testString("Parse and Save!");
+  cout << testString;
+  return 0;
+
   skch::parseandSave(argc, argv, cmd, parameters);   
 
   auto t0 = skch::Time::now();
