@@ -39,6 +39,12 @@ int main(int argc, char** argv)
 
   auto t0 = skch::Time::now();
 
+
+  // TESTING
+  string testString("Parameter checking!");
+  cout << testString;
+  return 0;
+
   //Build the sketch for reference
   skch::Sketch referSketch(parameters);
 
